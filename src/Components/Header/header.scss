@@ -1,0 +1,20 @@
+.hd-container-global {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hd-container-logo {
+    display: flex; 
+}
+
+.hd-container-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hd-buttons {
+ color: red;
+ font-size: 35px;
+}

@@ -1,0 +1,19 @@
+.ft-container-global {
+    display: flex;
+    color: white;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+}
+
+.ft-container-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.ft-container-text {
+    display: flex;
+    justify-content: center;
+}
