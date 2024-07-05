@@ -1,2 +1,45 @@
 @import '../Components/Header/header.css';
-@import '../Components/Footer/footer.css';/*# sourceMappingURL=app.css.map */
+@import '../Components/Footer/footer.css';
+@import '../Components/Slider/slider.css';
+@import '../Components/Slider/thumb.css';
+@import '../Components/ControlPanel/control-panel.css';
+@import '../Components/Button/button.css';
+@import '../Components/ContactForm/contactform.css';
+@import '../Components/ComingSoon/comingsoon.css';
+@import '../Pages/Songs/songs.css';
+@import '../Pages/Contact/contact.css';
+@import '../Pages/Home/home.css';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Lato;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.title-text {
+  color: black;
+  font-family: Lato;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160.5%; /* 80.25px */
+}/*# sourceMappingURL=app.css.map */

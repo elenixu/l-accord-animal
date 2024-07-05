@@ -1,0 +1,29 @@
+.h-text-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.h-text-text {
+  text-align: center;
+  width: 700px;
+  color: #3d3d3d;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 113%; /* 27.12px */
+}
+
+.h-contact-button {
+  border-radius: 30px;
+  background: #000000;
+  padding: 15px;
+  padding-top: 10px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=home.css.map */

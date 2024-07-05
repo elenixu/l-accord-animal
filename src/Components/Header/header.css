@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 430px;
+  padding: 20px;
 }
 
 .hd-container-logo {
@@ -11,10 +13,35 @@
 .hd-container-buttons {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 40px;
 }
 
 .hd-buttons {
-  color: red;
-  font-size: 35px;
+  color: #8186A0;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  border: none;
+  background: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+}
+.hd-buttons.clicked {
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #231F20;
+  color: #FFF;
+}
+
+.hd-container-content {
+  display: none;
+}
+.hd-container-content.visible {
+  display: block;
 }/*# sourceMappingURL=header.css.map */
